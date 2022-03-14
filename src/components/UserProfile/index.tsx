@@ -1,6 +1,5 @@
 import styles from "./styles.module.scss";
 
-
 export function UserProfile() {
    return (
       <section className={styles.userContainer}>

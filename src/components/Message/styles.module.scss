@@ -1,0 +1,47 @@
+.textarea {
+  width: 100%;
+  height: 55px;
+  border: 2px dashed var(--gray-3);
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.messagesWrapper {
+  &:not(:first-child) {
+    margin-top: 3rem;
+  }
+  &:nth-child(2) {
+    margin-left: 2.75rem;
+  }
+}
+
+.messagesFuncs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  svg {
+    color: gray;
+    margin-left: 0.6rem;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--button-blue);
+    }
+  }
+  .messagesButton {
+    width: 68px;
+    height: 38px;
+    background-color: var(--button-blue);
+    color: var(--timeline-white);
+    border: none;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    transition: filter 0.1s;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+  }
+}
