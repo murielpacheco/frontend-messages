@@ -1,0 +1,55 @@
+.userContainer {
+  width: 212px;
+  height: 467px;
+  background-color: var(--profile-gray);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .userAvatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: var(--avatar-gray);
+
+    margin-top: 2.5rem;
+    margin-bottom: 1.125rem;
+  }
+
+  .userName {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+  }
+
+  .userLocation {
+    font-size: 1rem;
+    color: var(--gray-3);
+  }
+
+  .userInfos {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userInfosItem {
+    width: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    transition: filter 0.1s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
