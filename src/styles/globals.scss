@@ -2,20 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 :root {
   --background-gray: #e1e1e6;
-  --timeline-white: #f4f4f4;
+  --timeline-white: #f2f9ff;
   --black: #000;
   --gray-3: #8d8d99;
   --button-blue: #3d7fff;
-  --avatar-gray: #c4c4c4;
-  --profile-gray: #ECEBEB;
+  --avatar-gray: #85bffa;
+  --profile-gray: #f2f9ff;
 }
 
 body {
-  background-color: #e1e1e6;
+  background: rgb(35, 138, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 138, 255, 1) 10%,
+    rgba(133, 191, 250, 1) 61%,
+    rgba(208, 220, 255, 1) 100%
+  );
 }
 
 a {

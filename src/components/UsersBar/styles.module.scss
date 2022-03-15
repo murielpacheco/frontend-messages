@@ -1,0 +1,23 @@
+.usersBar {
+  width: 66px;
+  height: 320px;
+  background-color: var(--profile-gray);
+  border-radius: 10px;
+}
+
+.usersList {
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.usersPictures {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--avatar-gray);
+}
